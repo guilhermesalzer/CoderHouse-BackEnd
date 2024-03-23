@@ -25,6 +25,7 @@ const getProductById = async (req, res) => {
 
 const create = async (req, res) => {
   await productManager.addProduct(req.body);
+  return res.status(200).json({ message: "Product created" });
 };
 
 const update = async (req, res) => {
