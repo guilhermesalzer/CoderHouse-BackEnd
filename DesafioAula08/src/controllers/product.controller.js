@@ -1,4 +1,4 @@
-import ProductManager from "../products/ProductManager.js";
+import ProductManager from "../models/products/ProductManager.js";
 import path from "path";
 
 const __dirname = path.resolve();
